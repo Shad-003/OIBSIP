@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Merriweather:ital,wght@0,400;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    max-width: 80vw;
+    max-height: 120vh;
+    font-family: 'Merriweather', serif;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.min-h-screen {
+  min-height: 150vh;
+}
+
+.navbar {
+  height: 67px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar li{
+  list-style: none;
+  margin: 0 12px;
+}
+
+.top-left {
+  width: 50%;
+  height: 50vh;
+  background-color: #FFEEBB;
+  border-radius: 15px;
+}
+
+.top-right {
+  width: 50%;
+  height: 50vh;
+  border-radius: 20px;
+}
+
+.logo {
+  font-size: 1.4rem;
+}
+
+.dumble-c {
+  height: 7rem;
+  width: 10rem;
+  border-radius: 20px;
+}
+
+.img01 {
+  height: 21rem;
+  width: 33rem;
+}
+
+.img2 {
+  height: 21rem;
+  width: 33rem;
+  border-radius: 20px;
+}
+
+.section01 {
+  flex-direction: column;
+}
+
+.section02 {
+  padding:  60px;
+  margin-top: 15px;
+}
+
+.section02 h1 {
+  font-size: 2rem;
+  margin: 10px;
+}
+
+.section03 {
+  padding:  60px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.section03 table {
+  width: 100%;
+  margin: 40px 0;
+}
+
+.section03 table th {
+   width: 23vw;
+   border: 1px solid #0E2954;
+   border-radius: 5px;
+   padding: 8px 0;
+}
+
+.section03 h1 {
+  font-size: 2.3rem;
+}
+
+.boxes {
+  margin: 12px 22px;
+}
+
+.box ul {
+   list-style-type: none; /*----for removing points------ */
+}
+
+.box li {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.box ul li {
+  margin: 8px 2px;
+}
+
+.box {
+    border: 1px solid #0E2954;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin: 20px;
+    text-align: center;
+    min-width: 25vw;
+    background-color: #FFEEBB;
+}
+
+.box h2 {
+  padding: 12px 0;
+}
+
+.plantable {
+  justify-content: center;
+  align-items: center;
+}
+
+.f {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.pp {
+  color: #2B2A4C;
+  font-weight: 280;
+}
+
+@media (max-width: 600px) {
+  .container {
+      width: 350px;
+      height: 800px;
+      font-family: 'Merriweather', serif;
+      align-items: center;
+      display: block;
+  }
+  .top-left {
+    height: 400px;
+  }
+
+}
